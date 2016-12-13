@@ -21,7 +21,6 @@ h2 {
 	padding: 5px; 
 	background-color: #d5edb3;
 	color: #5c743d;
-	font-family: 'Roboto', sans-serif;
 }
 
 p { margin-top: 0; }
@@ -43,14 +42,12 @@ a {
 }
 a:hover { color: #b2cecf;}
 
-/*	*************************************
-	Modules
-	************************************* */
 .container {
 	margin: 0 auto;
 	width: 80%;
 	max-width: 960px; 
 }
+
 .right {
 	float: right;
 	margin-left: 15px;
@@ -60,30 +57,10 @@ a:hover { color: #b2cecf;}
 	padding: 5px;
 }
 
-/*	*************************************
-	Layout
-	************************************* */
-article, aside { 
-	display: table-cell;
-	padding: 25px;
-}
-article { 
-	background-image: url(../images/clouds.jpg);
-	background-size: cover;
-	width: 70%; 
-}
-article p { 
-	background-color: rgba(255,255,255,0.5);
-	padding: 20px; 
-}
-aside { background-color: #b2cecf; }
 
 footer { margin-top: 15px; }
 
-/*	*************************************
-	State
-	************************************* */
 .current {
-	background-color: black;
+	background-color: #0033cc;
 	color: white;
 }
