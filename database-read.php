@@ -47,6 +47,9 @@
 
 	</table>
 
+	<br>
+	<a href="contact.php">Back to the Contact Page</a>
+
 </body>
 </html>
 
