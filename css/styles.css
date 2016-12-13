@@ -105,10 +105,8 @@ footer {
 
 /*Page 3 Specifics*/
 
-table {
-	margin: 10px;
-	width: 300px;
-	float: left;
+#message {
+	margin-top: 20px;
 }
 
 #messageBox {margin-top: 10px;}

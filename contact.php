@@ -7,33 +7,31 @@
          <h2>Contact Me!</h2>
          <p>If you have questions, comments, or concerns, please don't hesitate to reach out to me.</p>
 
-      <form action="/cgi-bin/test.cgi" name="myForm" onsubmit="return(validate(), validateEmail());">
-         
-         <table cellspacing="2" cellpadding="2" border="1">
-            <tr>
-               <td align="right">Name</td>
-               <td><input type="text" name="Name" /></td>
-            </tr>
-            
-            <tr>
-               <td align="right">EMail</td>
-               <td><input type="text" name="EMail" /></td>
-            </tr>
-            
-            <tr>
-               <td align="right">Phone Number</td>
-               <td><input type="text" name="Phone" /></td>
-            </tr>
-            
-            <tr>
-               <td align="right"></td>
-               <td><input type="submit" value="Submit"/></td>
-            </tr>
-            
-         </table>
+   <form method="post" action="database-write.php">
+         <div>
+            <label for="name">Name: </label>
+            <input type="text" name="name" id="name">
+         </div>
+
+         <div>
+            <label for="email">Email: </label>
+            <input type="text" name="email" id="email">
+         </div>
+
+         <div>
+            <label for="phone">Phone Number: </label>
+            <input type="text" name="phone" id="phone">
+         </div>
+
+         <div>
+            <textarea id="message" rows="4" cols="50" name="message"> Enter message here...</textarea>
+         </div>
+
+         <div>
+            <input type="submit" value="Submit">
+         </div>
       </form>
 
-      <textarea id="messageBox" rows="4" cols="50" name="message" form="myForm"> Enter message here...</textarea>
    </div>
       
 <?php include "inc/footer.inc" ?>

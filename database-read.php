@@ -1,12 +1,12 @@
 <?php
 	// 1. Create a database connection
 	include 'db-info.php';
-
 	$connection = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
 
 
 	// 2. Perform database query
-	$query = "SELECT * FROM friends "; //change FRIENDS to contact list database
+	$query = "SELECT * FROM contact ";
+	$result = mysqli_query($connection, $query);
 	
 ?>
 
@@ -17,11 +17,12 @@
 </head>
 <body>
 
-	<h1>Contact</h1>
+	<h1>Contact us!</h1>
 
 	<table border>
 
 		<tr>
+			<th>Id</th>
 			<th>Name</th>
 			<th>Email</th>
 			<th>Phone Number</th>
@@ -35,6 +36,7 @@
 		?>
 
 			<tr>
+				<td><?php echo $pages["id"]; ?></td>
 				<td><?php echo $pages["name"]; ?></td>
 				<td><?php echo $pages["email"]; ?></td>
 				<td><?php echo $pages["phone"]; ?></td>
@@ -44,9 +46,6 @@
 		<?php } ?>
 
 	</table>
-
-	<br>
-	<a href=".">Back to the Index</a>
 
 </body>
 </html>
