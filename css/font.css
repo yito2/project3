@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 
 h1 {
 	font-style: bold;
@@ -8,11 +9,6 @@ h1 {
 h2 {
 	font-style: regular;
 	font-family: 'Oswald', sans-serif;
-}
-
-p {
-	font-size: 15px;
-	font-family: 'Raleway', sans-serif;
 }
 
 strong {
