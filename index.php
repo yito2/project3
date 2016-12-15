@@ -10,7 +10,7 @@
 			<p>
 				Phone: (314) 623-9157 <br/>
 				Email: yito2@u.rochester.edu <br/>
-				LinkedIn Profile: http://tiny.cc/k0zhwx
+				<a href="http://tiny.cc/k0zhwx">LinkedIn Profile</a>
 			</p>
 
 			<p>
@@ -20,7 +20,7 @@
 			</p>
 
 			<p class="title">
-				Dancer, Netflix Enthusiast, Ex-Competitive Figure Skater
+				Dancer, Netflix Enthusiast
 			</p>
 		</div>
 
