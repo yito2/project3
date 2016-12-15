@@ -1,8 +1,7 @@
 <?php
 
 	$dbhost = "localhost";
-	$dbuser = "contact";
-	$dbpass = "contact";
-	$dbname = "contact";
-
+	$dbuser = "urcscon3_yito2";
+	$dbpass = "coffee1N/!";
+	$dbname = "urcscon3_yito2";
 ?>
